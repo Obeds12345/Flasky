@@ -14,7 +14,7 @@ app.config["SQLALCHEMY_DATABASE_URI"] = 'postgresql://postgres:obeds@localhost/p
 app.config['SQLALCHEMY_CURSORCLASS'] = 'DictCursor'
 
 
-
+# test commit
 db = SQLAlchemy(app)
 
 class users(db.Model):
